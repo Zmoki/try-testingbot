@@ -1,0 +1,19 @@
+{
+  "name": "try-testingbot",
+  "version": "0.0.0",
+  "description": "Try to use testingbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmoki/try-testingbot.git"
+  },
+  "author": "Zarema Khalilova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zmoki/try-testingbot/issues"
+  },
+  "homepage": "https://github.com/Zmoki/try-testingbot#readme"
+}
