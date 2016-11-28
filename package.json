@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Zmoki/try-testingbot#readme",
   "devDependencies": {
     "eslint": "^3.11.0",
-    "eslint-config-uploadcare": "^1.1.0"
+    "eslint-config-uploadcare": "^1.1.0",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-json-reporter": "^0.1.0",
+    "wdio-mocha-framework": "^0.5.4",
+    "wdio-testingbot-service": "^0.1.6",
+    "webdriverio": "^4.4.0"
   }
 }
