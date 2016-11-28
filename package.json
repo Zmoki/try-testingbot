@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Zmoki/try-testingbot/issues"
   },
-  "homepage": "https://github.com/Zmoki/try-testingbot#readme"
+  "homepage": "https://github.com/Zmoki/try-testingbot#readme",
+  "devDependencies": {
+    "eslint": "^3.11.0",
+    "eslint-config-uploadcare": "^1.1.0"
+  }
 }
