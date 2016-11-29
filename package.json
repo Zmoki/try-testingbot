@@ -6,7 +6,8 @@
   "scripts": {
     "test": "\"./node_modules/.bin/wdio\" wdio.config.js",
     "build:reports": "\"./node_modules/.bin/allure\" generate \"./reports\"",
-    "start:reports": "\"./node_modules/.bin/allure\" report open"
+    "start:reports": "\"./node_modules/.bin/allure\" report open",
+    "start": "\"./node_modules/.bin/ws\""
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "allure-commandline": "^1.4.23",
     "eslint": "^3.11.0",
     "eslint-config-uploadcare": "^1.1.0",
+    "local-web-server": "^1.2.6",
     "wdio-allure-reporter": "^0.1.2",
     "wdio-mocha-framework": "^0.5.4",
     "wdio-testingbot-service": "^0.1.6",
