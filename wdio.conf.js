@@ -18,6 +18,7 @@ exports.config = {
   connectionRetryCount: 3,
   services: ['testingbot'],
   framework: 'mocha',
-  reporters: ['allure', 'json'],
+  reporters: ['allure'],
+  reporterOptions: {outputDir: './reports'},
   mochaOpts: {ui: 'bdd'},
 }
