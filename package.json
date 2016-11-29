@@ -4,7 +4,9 @@
   "description": "Try to use testingbot",
   "main": "index.js",
   "scripts": {
-    "test": "\"./node_modules/.bin/wdio\" wdio.config.js"
+    "test": "\"./node_modules/.bin/wdio\" wdio.config.js",
+    "build:reports": "\"./node_modules/.bin/allure\" generate \"./reports\"",
+    "start:reports": "\"./node_modules/.bin/allure\" report open"
   },
   "repository": {
     "type": "git",
